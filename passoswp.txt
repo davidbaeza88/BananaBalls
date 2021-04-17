@@ -1,0 +1,4 @@
+kubectl apply -f ssd-storageclass.yaml
+kubectl apply -f wordpress-pvc.yaml
+kubectl apply -f wordpress-deployment.yaml 
+kubectl apply -f wordpress-service.yaml
